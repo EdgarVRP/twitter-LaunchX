@@ -1,0 +1,22 @@
+{
+  "name": "twitter-launchx",
+  "version": "1.0.0",
+  "description": "Practicas 3, 4, 5 semana 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EdgarVRP/twitter-LaunchX.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EdgarVRP/twitter-LaunchX/issues"
+  },
+  "homepage": "https://github.com/EdgarVRP/twitter-LaunchX#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
