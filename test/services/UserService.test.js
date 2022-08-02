@@ -27,4 +27,15 @@ describe("Test for UserService",()=>{
         //Resultados Esperados
         expect(user.username).toBe('EVRP')
     });
+    test('4. Given a list of users give me the list of usernames', ()=>{
+        //Por Codificar...
+        const user1 = UserService.create(1,'EdgarVRP','Edgar')
+        const user2 = UserService.create(2,'Pako','Francisco')
+        const user3 = UserService.create(3,'Vika','Veronica')
+        const usernames=UserService.getAllUsernames([user1,user2,user3])
+        //Resultados Esperados
+        expect(usernames).toContain('EdgarVRP')
+        expect(usernames).toContain('Pako')
+        expect(usernames).toContain('Vika')
+    });
  })
