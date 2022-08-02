@@ -1,4 +1,4 @@
-const User = require('../services/UserService')
+const UserService = require('../services/UserService')
 class UserView{
     static createUser(payload){
         if(payload === null){
