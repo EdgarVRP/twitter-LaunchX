@@ -19,4 +19,11 @@ const User = require('../../app/models/user')
         expect(user.getDateCreated).not.toBeUndefined()
         expect(user.getLastUpdated).not.toBeUndefined()
     })
+    test('Add setters',()=>{
+        const user=new User(1,'EVRP','Edgar','Bio')
+        user.setUsername="EdgarVRP"
+        expect(user.getUsername).toBe('EdgarVRP')
+        user.setBio="New Bio"
+        expect(user.getBio).toBe('New Bio')
+ })
  })
